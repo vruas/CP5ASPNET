@@ -1,0 +1,271 @@
+[
+  {
+    "ContainingType": "WebAPIHospitalCP04.Controllers.PacienteController",
+    "Method": "BuscarPacientePorId",
+    "RelativePath": "api/Paciente/BuscarPacientePorId/{idPaciente}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPaciente",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIHospitalCP04.Models.ResponseModel\u00601[[WebAPIHospitalCP04.Models.PacienteModel, WebAPIHospitalCP05, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIHospitalCP04.Controllers.PacienteController",
+    "Method": "CadastrarPaciente",
+    "RelativePath": "api/Paciente/CadastrarPaciente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "criarPacienteDto",
+        "Type": "WebAPIHospitalCP04.Dto.Paciente.CriarPacienteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIHospitalCP04.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebAPIHospitalCP04.Models.PacienteModel, WebAPIHospitalCP05, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIHospitalCP04.Controllers.PacienteController",
+    "Method": "EditarPaciente",
+    "RelativePath": "api/Paciente/EditarPaciente",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editarPacienteDto",
+        "Type": "WebAPIHospitalCP04.Dto.Paciente.EditarPacienteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIHospitalCP04.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebAPIHospitalCP04.Models.PacienteModel, WebAPIHospitalCP05, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIHospitalCP04.Controllers.PacienteController",
+    "Method": "ExcluirPaciente",
+    "RelativePath": "api/Paciente/ExcluirPaciente",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPaciente",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIHospitalCP04.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebAPIHospitalCP04.Models.PacienteModel, WebAPIHospitalCP05, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIHospitalCP04.Controllers.PacienteController",
+    "Method": "ListarPacientes",
+    "RelativePath": "api/Paciente/ListarPacientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIHospitalCP04.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebAPIHospitalCP04.Models.PacienteModel, WebAPIHospitalCP05, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIHospitalCP04.Controllers.PlanoSaudeController",
+    "Method": "BuscarPlanoPorId",
+    "RelativePath": "api/PlanoSaude/BuscarPlanoPorId/{idPlano}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPlano",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIHospitalCP04.Models.ResponseModel\u00601[[WebAPIHospitalCP04.Models.PlanoSaudeModel, WebAPIHospitalCP05, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIHospitalCP04.Controllers.PlanoSaudeController",
+    "Method": "CadastrarPlano",
+    "RelativePath": "api/PlanoSaude/CadastrarPlano",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "criarPlanoSaudeDto",
+        "Type": "WebAPIHospitalCP04.Dto.PlanoSaude.CriarPlanoSaudeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIHospitalCP04.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebAPIHospitalCP04.Models.PlanoSaudeModel, WebAPIHospitalCP05, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIHospitalCP04.Controllers.PlanoSaudeController",
+    "Method": "EditarPlano",
+    "RelativePath": "api/PlanoSaude/EditarPlano",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editarPlanoSaudeDto",
+        "Type": "WebAPIHospitalCP04.Dto.PlanoSaude.EditarPlanoSaudeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIHospitalCP04.Models.ResponseModel\u00601[[WebAPIHospitalCP04.Models.PlanoSaudeModel, WebAPIHospitalCP05, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIHospitalCP04.Controllers.PlanoSaudeController",
+    "Method": "ExcluirPlano",
+    "RelativePath": "api/PlanoSaude/ExcluirPlano/{idPlano}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPlano",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIHospitalCP04.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebAPIHospitalCP04.Models.PlanoSaudeModel, WebAPIHospitalCP05, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIHospitalCP04.Controllers.PlanoSaudeController",
+    "Method": "ListarPlanos",
+    "RelativePath": "api/PlanoSaude/ListarPllanos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPIHospitalCP04.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebAPIHospitalCP04.Models.PlanoSaudeModel, WebAPIHospitalCP05, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPIHospitalCP04.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebAPIHospitalCP04.WeatherForecast, WebAPIHospitalCP05, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

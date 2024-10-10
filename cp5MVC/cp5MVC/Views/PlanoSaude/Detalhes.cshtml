@@ -1,0 +1,21 @@
+﻿@model cp5MVC.Models.PlanoSaudeModel
+
+@{
+    ViewData["Title"] = "Detalhes do Plano de Saúde";
+}
+
+<h1>Detalhes do Plano de Saúde</h1>
+
+<div class="card">
+    <div class="card-header">
+        Plano de Saúde: @Model.NomePlano
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">Código: @Model.CodPlano</h5>
+        <p class="card-text">Cobertura: @Model.Cobertura</p>
+    </div>
+</div>
+
+<p>
+    <a asp-action="Index" class="btn btn-secondary">Voltar à lista</a>
+</p>

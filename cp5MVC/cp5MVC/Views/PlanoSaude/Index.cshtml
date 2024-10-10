@@ -1,0 +1,39 @@
+﻿@model List<cp5MVC.Models.PlanoSaudeModel>
+
+@{
+    ViewData["Title"] = "Lista de Planos de Saúde";
+}
+
+<h1>Planos de Saúde</h1>
+
+<p>
+    <a asp-action="Criar" class="btn btn-primary">Adicionar Novo Plano de Saúde</a>
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Código</th>
+            <th>Cobertura</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.IdPlanoDeSaude</td>
+                <td>@item.NomePlano</td>
+                <td>@item.CodPlano</td>
+                <td>@item.Cobertura</td>
+                <td>
+                    <a asp-action="Detalhes" asp-route-idPlanoDeSaude="@item.IdPlanoDeSaude" class="btn btn-info">Detalhes</a> |
+                    <a asp-action="Editar" asp-route-idPlanoDeSaude="@item.IdPlanoDeSaude" class="btn btn-warning">Editar</a> |
+                    <a asp-action="Excluir" asp-route-idPlanoDeSaude="@item.IdPlanoDeSaude" class="btn btn-danger">Excluir</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

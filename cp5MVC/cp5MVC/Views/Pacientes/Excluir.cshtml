@@ -1,0 +1,32 @@
+﻿@model cp5MVC.Models.PacienteModel
+
+@{
+    ViewData["Title"] = "Excluir Paciente";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<h3>Tem certeza de que deseja excluir este paciente?</h3>
+
+<div>
+    <h4>Paciente</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">ID</dt>
+        <dd class="col-sm-10">@Model.IdPaciente</dd>
+
+        <dt class="col-sm-2">Nome Completo</dt>
+        <dd class="col-sm-10">@Model.NomeCompleto</dd>
+
+        <dt class="col-sm-2">CPF</dt>
+        <dd class="col-sm-10">@Model.CPF</dd>
+    </dl>
+</div>
+
+<form asp-action="ConfirmarExclusao" method="post">
+    <input type="hidden" asp-for="IdPaciente" />
+    <div class="form-group">
+        <input type="submit" value="Excluir" class="btn btn-danger" />
+        <a class="btn btn-secondary" href="@Url.Action("Index", "Paciente")">Cancelar</a>
+    </div>
+</form>

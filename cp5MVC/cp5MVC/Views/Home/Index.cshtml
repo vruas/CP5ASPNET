@@ -1,0 +1,36 @@
+﻿@{
+    ViewData["Title"] = "ASP MED";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col text-center">
+            <h1>ASP MED</h1>
+            <p class="lead">Bem-vindo ao sistema de gestão hospitalar. Utilize o menu abaixo para acessar as funcionalidades.</p>
+        </div>
+    </div>
+
+    <hr />
+
+    <div class="row mt-5">
+        <div class="col-md-6">
+            <div class="card text-center shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Gerenciamento de Pacientes</h5>
+                    <p class="card-text">Acesse a lista de pacientes e gerencie seus registros.</p>
+                    <a href="@Url.Action("Index", "Paciente")" class="btn btn-primary btn-block">Acessar Pacientes</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="card text-center shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Gerenciamento de Planos de Saúde</h5>
+                    <p class="card-text">Visualize, adicione ou edite planos de saúde cadastrados.</p>
+                    <a href="@Url.Action("Index", "PlanoSaude")" class="btn btn-primary btn-block">Acessar Planos de Saúde</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

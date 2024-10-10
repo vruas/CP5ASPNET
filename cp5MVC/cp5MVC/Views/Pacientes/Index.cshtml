@@ -1,0 +1,43 @@
+﻿@model List<cp5MVC.Models.PacienteModel>
+
+@{
+    ViewData["Title"] = "Lista de Pacientes";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<p>
+    <a class="btn btn-primary" href="@Url.Action("Criar", "Paciente")">Adicionar Novo Paciente</a>
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nome Completo</th>
+            <th>Data de Nascimento</th>
+            <th>CPF</th>
+            <th>Telefone</th>
+            <th>Endereço</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var paciente in Model)
+        {
+                <tr>
+                    <td>@paciente.IdPaciente</td>
+                    <td>@paciente.NomeCompleto</td>
+                    <td>@paciente.DataNascimento</td>
+                    <td>@paciente.CPF</td>
+                    <td>@paciente.Telefone</td>
+                    <td>@paciente.Endereco</td>
+                    <td>
+                        <a class="btn btn-info" href="@Url.Action("Detalhes", "Paciente", new { idPaciente = paciente.IdPaciente })">Detalhes</a> |
+                        <a class="btn btn-warning" href="@Url.Action("Editar", "Paciente", new { idPaciente = paciente.IdPaciente })">Editar</a> |
+                        <a class="btn btn-danger" href="@Url.Action("Excluir", "Paciente", new { idPaciente = paciente.IdPaciente })">Excluir</a>
+                    </td>
+                </tr>
+        }
+    </tbody>
+</table>

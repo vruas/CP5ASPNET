@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "X96gQd2XX7os4pn92vr531usXpxJ3uOlSdJWPJsaujE=",
+  "Source": "WebAPIHospitalCP05",
+  "BasePath": "_content/WebAPIHospitalCP05",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

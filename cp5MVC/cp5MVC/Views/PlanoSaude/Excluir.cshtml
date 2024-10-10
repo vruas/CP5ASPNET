@@ -1,0 +1,27 @@
+﻿@model cp5MVC.Models.PlanoSaudeModel
+
+@{
+    ViewData["Title"] = "Excluir Plano de Saúde";
+}
+
+<h1>Excluir Plano de Saúde</h1>
+
+<h3>Tem certeza que deseja excluir este plano de saúde?</h3>
+
+<div class="card">
+    <div class="card-header">
+        @Model.NomePlano
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">Código: @Model.CodPlano</h5>
+        <p class="card-text">Cobertura: @Model.Cobertura</p>
+    </div>
+</div>
+
+<form asp-action="ConfirmarExclusao" method="post">
+    <input type="hidden" asp-for="IdPlanoDeSaude" />
+    <div class="form-group">
+        <input type="submit" value="Excluir" class="btn btn-danger" />
+        <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+    </div>
+</form>

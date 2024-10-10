@@ -1,0 +1,123 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vitor\\Documents\\fiap\\2\u00B0 ANO\\.NET\\CP5WebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5A1A4A56-BBDD-41F0-8346-983B23F128F7}|cp4WebAPI\\WebAPIHospitalCP05.csproj|c:\\users\\vitor\\documents\\fiap\\2\u00B0 ano\\.net\\cp5webapi\\cp4webapi\\models\\planosaudemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A1A4A56-BBDD-41F0-8346-983B23F128F7}|cp4WebAPI\\WebAPIHospitalCP05.csproj|solutionrelative:cp4webapi\\models\\planosaudemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A1A4A56-BBDD-41F0-8346-983B23F128F7}|cp4WebAPI\\WebAPIHospitalCP05.csproj|c:\\users\\vitor\\documents\\fiap\\2\u00B0 ano\\.net\\cp5webapi\\cp4webapi\\models\\pacientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A1A4A56-BBDD-41F0-8346-983B23F128F7}|cp4WebAPI\\WebAPIHospitalCP05.csproj|solutionrelative:cp4webapi\\models\\pacientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A1A4A56-BBDD-41F0-8346-983B23F128F7}|cp4WebAPI\\WebAPIHospitalCP05.csproj|c:\\users\\vitor\\documents\\fiap\\2\u00B0 ano\\.net\\cp5webapi\\cp4webapi\\controllers\\planosaudecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A1A4A56-BBDD-41F0-8346-983B23F128F7}|cp4WebAPI\\WebAPIHospitalCP05.csproj|solutionrelative:cp4webapi\\controllers\\planosaudecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A1A4A56-BBDD-41F0-8346-983B23F128F7}|cp4WebAPI\\WebAPIHospitalCP05.csproj|c:\\users\\vitor\\documents\\fiap\\2\u00B0 ano\\.net\\cp5webapi\\cp4webapi\\models\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A1A4A56-BBDD-41F0-8346-983B23F128F7}|cp4WebAPI\\WebAPIHospitalCP05.csproj|solutionrelative:cp4webapi\\models\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A1A4A56-BBDD-41F0-8346-983B23F128F7}|cp4WebAPI\\WebAPIHospitalCP05.csproj|c:\\users\\vitor\\documents\\fiap\\2\u00B0 ano\\.net\\cp5webapi\\cp4webapi\\services\\planosaude\\planosaudeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A1A4A56-BBDD-41F0-8346-983B23F128F7}|cp4WebAPI\\WebAPIHospitalCP05.csproj|solutionrelative:cp4webapi\\services\\planosaude\\planosaudeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A1A4A56-BBDD-41F0-8346-983B23F128F7}|cp4WebAPI\\WebAPIHospitalCP05.csproj|c:\\users\\vitor\\documents\\fiap\\2\u00B0 ano\\.net\\cp5webapi\\cp4webapi\\services\\paciente\\pacienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A1A4A56-BBDD-41F0-8346-983B23F128F7}|cp4WebAPI\\WebAPIHospitalCP05.csproj|solutionrelative:cp4webapi\\services\\paciente\\pacienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PacienteModel.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\Documents\\fiap\\2\u00B0 ANO\\.NET\\CP5WebApi\\cp4WebAPI\\Models\\PacienteModel.cs",
+              "RelativeDocumentMoniker": "cp4WebAPI\\Models\\PacienteModel.cs",
+              "ToolTip": "C:\\Users\\vitor\\Documents\\fiap\\2\u00B0 ANO\\.NET\\CP5WebApi\\cp4WebAPI\\Models\\PacienteModel.cs",
+              "RelativeToolTip": "cp4WebAPI\\Models\\PacienteModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T21:47:15.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlanoSaudeController.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\Documents\\fiap\\2\u00B0 ANO\\.NET\\CP5WebApi\\cp4WebAPI\\Controllers\\PlanoSaudeController.cs",
+              "RelativeDocumentMoniker": "cp4WebAPI\\Controllers\\PlanoSaudeController.cs",
+              "ToolTip": "C:\\Users\\vitor\\Documents\\fiap\\2\u00B0 ANO\\.NET\\CP5WebApi\\cp4WebAPI\\Controllers\\PlanoSaudeController.cs",
+              "RelativeToolTip": "cp4WebAPI\\Controllers\\PlanoSaudeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T21:21:33.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlanoSaudeModel.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\Documents\\fiap\\2\u00B0 ANO\\.NET\\CP5WebApi\\cp4WebAPI\\Models\\PlanoSaudeModel.cs",
+              "RelativeDocumentMoniker": "cp4WebAPI\\Models\\PlanoSaudeModel.cs",
+              "ToolTip": "C:\\Users\\vitor\\Documents\\fiap\\2\u00B0 ANO\\.NET\\CP5WebApi\\cp4WebAPI\\Models\\PlanoSaudeModel.cs",
+              "RelativeToolTip": "cp4WebAPI\\Models\\PlanoSaudeModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T01:13:15.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PacienteService.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\Documents\\fiap\\2\u00B0 ANO\\.NET\\CP5WebApi\\cp4WebAPI\\Services\\Paciente\\PacienteService.cs",
+              "RelativeDocumentMoniker": "cp4WebAPI\\Services\\Paciente\\PacienteService.cs",
+              "ToolTip": "C:\\Users\\vitor\\Documents\\fiap\\2\u00B0 ANO\\.NET\\CP5WebApi\\cp4WebAPI\\Services\\Paciente\\PacienteService.cs",
+              "RelativeToolTip": "cp4WebAPI\\Services\\Paciente\\PacienteService.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAIwF8AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T01:09:04.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlanoSaudeService.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\Documents\\fiap\\2\u00B0 ANO\\.NET\\CP5WebApi\\cp4WebAPI\\Services\\PlanoSaude\\PlanoSaudeService.cs",
+              "RelativeDocumentMoniker": "cp4WebAPI\\Services\\PlanoSaude\\PlanoSaudeService.cs",
+              "ToolTip": "C:\\Users\\vitor\\Documents\\fiap\\2\u00B0 ANO\\.NET\\CP5WebApi\\cp4WebAPI\\Services\\PlanoSaude\\PlanoSaudeService.cs",
+              "RelativeToolTip": "cp4WebAPI\\Services\\PlanoSaude\\PlanoSaudeService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAA2wJwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T22:57:40.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResponseModel.cs",
+              "DocumentMoniker": "C:\\Users\\vitor\\Documents\\fiap\\2\u00B0 ANO\\.NET\\CP5WebApi\\cp4WebAPI\\Models\\ResponseModel.cs",
+              "RelativeDocumentMoniker": "cp4WebAPI\\Models\\ResponseModel.cs",
+              "ToolTip": "C:\\Users\\vitor\\Documents\\fiap\\2\u00B0 ANO\\.NET\\CP5WebApi\\cp4WebAPI\\Models\\ResponseModel.cs",
+              "RelativeToolTip": "cp4WebAPI\\Models\\ResponseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T22:57:29.47Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+﻿@model cp5MVC.Models.PlanoSaudeModel
+
+@{
+    ViewData["Title"] = "Criar Novo Plano de Saúde";
+}
+
+<h1>Criar Novo Plano de Saúde</h1>
+
+<form asp-action="Criar" method="post">
+    <div class="form-group">
+        <label asp-for="NomePlano" class="control-label"></label>
+        <input asp-for="NomePlano" class="form-control" />
+        <span asp-validation-for="NomePlano" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CodPlano" class="control-label"></label>
+        <input asp-for="CodPlano" class="form-control" />
+        <span asp-validation-for="CodPlano" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Cobertura" class="control-label"></label>
+        <input asp-for="Cobertura" class="form-control" />
+        <span asp-validation-for="Cobertura" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Criar" class="btn btn-primary" />
+        <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+    </div>
+</form>
